@@ -1,0 +1,75 @@
+# ======================================
+# 🟢 Node.js / Express Project
+# ======================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*        # ví dụ: .env.development, .env.production
+
+# Logs
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+.next/
+out/
+.cypress/
+.vscode-test/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional lock files (tuỳ cách bạn dùng)
+# Nếu chỉ muốn commit đúng 1 loại lock file, hãy bỏ comment file tương ứng
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Docker
+docker-compose.override.yml
+*.env.local
+.dockerignore
+
+# Misc
+*.tgz
+*.swp
+*.bak
+*.tmp
+
+# ======================================
+# 🧩 Test & Coverage
+# ======================================
+coverage/
+.nyc_output/
+jest-html-reporters-*
+
+# ======================================
+# 🧠 TypeScript (nếu có)
+# ======================================
+*.tsbuildinfo
