@@ -73,3 +73,13 @@ jest-html-reporters-*
 # 🧠 TypeScript (nếu có)
 # ======================================
 *.tsbuildinfo
+
+# Neon db
+.neon_local/.neon_local/
+.neon_local/
+.neon_local/
+.neon_local/
+.neon_local/
+.neon_local/
+.neon_local/
+.neon_local/
